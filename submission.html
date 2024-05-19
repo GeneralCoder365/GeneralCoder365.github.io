@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8429fe08d3fa4f96bb7ca6f7cc874be6</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="section" class="cell markdown">
+<h1></h1>
+</section>
+<div class="cell markdown">
+<h1
+id="analyzing-student-performance-insights-into-factors-affecting-academic-achievements"><strong>Analyzing
+Student Performance: Insights into Factors Affecting Academic
+Achievements</strong></h1>
+<p>By Ainesh Chatterjee</p>
+<h1 id="introduction">Introduction</h1>
+<p>In this tutorial, we'll delve into an exploration of the factors
+influencing student performance across various subjects. This analysis
+is crucial in understanding educational disparities and identifying key
+areas where interventions can be most effective. The debate around
+educational outcomes and their dependence on socioeconomic factors,
+parental education, and other variables continues to be a hot topic in
+policy and academic circles. By applying data science techniques to this
+issue, we aim to uncover patterns and provide evidence-based
+recommendations for educators and policymakers.</p>
+<p>Why is this important? Educational achievement affects not just
+individual career prospects but also broader societal development. By
+analyzing data on student performance, we can identify trends, predict
+outcomes, and suggest improvements in educational strategies,
+potentially leading to better learning environments and enhanced student
+success.</p>
+<h1 id="data-collection">Data Collection</h1>
+<p>For our analysis, we'll use a dataset from Kaggle titled <a
+href="https://www.kaggle.com/spscientist/students-performance-in-exams">"Students
+Performance in Exams"</a>. This dataset includes information on student
+scores across mathematics, reading, and writing, along with demographic
+and educational background variables such as gender, race/ethnicity,
+parental level of education, lunch type, and test preparation course
+completion.</p>
+<p>This dataset provides a comprehensive starting point for our
+exploratory data analysis, allowing us to test hypotheses about academic
+achievements and examine the impact of various factors on student
+performance. By leveraging Python and its powerful data manipulation
+libraries (NumPy, Pandas, Matplotlib), we will clean, process, and
+analyze this data to extract meaningful insights.</p>
+</div>
+<section id="data-processing" class="cell markdown">
+<h1>Data Processing</h1>
+<p>To analyze the student performance dataset effectively, we'll conduct
+several steps of data processing to ensure the data is clean, relevant,
+and structured appropriately for our analysis.</p>
+<p>Our process involves:</p>
+<ol>
+<li><strong>Initial Data Review</strong>:
+<ul>
+<li>Load the dataset to understand its structure, such as column names,
+data types, and any initial signs of missing values or data
+inconsistencies.</li>
+</ul></li>
+<li><strong>Data Cleaning</strong>:
+<ul>
+<li>Check for and handle any missing or inconsistent data.</li>
+<li>Ensure that all data types are appropriate for the analyses planned
+(e.g., numerical scores should be integers or floats, categorical data
+should be of type 'category').</li>
+</ul></li>
+<li><strong>Feature Engineering</strong>:
+<ul>
+<li>Create new features if necessary (for instance, an overall score or
+a pass/fail indicator based on scores) to aid in more complex
+analyses.</li>
+</ul></li>
+<li><strong>Data Transformation</strong>:
+<ul>
+<li>Normalize or standardize scores if required for certain types of
+analysis, especially if using machine learning techniques that are
+sensitive to scale.</li>
+</ul></li>
+<li><strong>Exploratory Data Analysis Preparation</strong>:
+<ul>
+<li>Prepare the data by organizing it into a format that facilitates
+easy visualization and analysis.</li>
+</ul></li>
+</ol>
+<p>First, let's import the necessary library (Pandas) and load the
+dataset to begin the data processing steps.</p>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the dataset</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>file_path <span class="op">=</span> <span class="st">&#39;./StudentsPerformance.csv&#39;</span> <span class="co"># Relative path to the dataset</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>students_data <span class="op">=</span> pd.read_csv(file_path)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Display basic information and the first few rows of the dataframe as a sanity check</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>students_data.info(), students_data.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 8 columns):
+ #   Column                       Non-Null Count  Dtype 
+---  ------                       --------------  ----- 
+ 0   gender                       1000 non-null   object
+ 1   race/ethnicity               1000 non-null   object
+ 2   parental level of education  1000 non-null   object
+ 3   lunch                        1000 non-null   object
+ 4   test preparation course      1000 non-null   object
+ 5   math score                   1000 non-null   int64 
+ 6   reading score                1000 non-null   int64 
+ 7   writing score                1000 non-null   int64 
+dtypes: int64(3), object(5)
+memory usage: 62.6+ KB
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="1">
+<pre><code>(None,
+    gender race/ethnicity parental level of education         lunch  \
+ 0  female        group B           bachelor&#39;s degree      standard   
+ 1  female        group C                some college      standard   
+ 2  female        group B             master&#39;s degree      standard   
+ 3    male        group A          associate&#39;s degree  free/reduced   
+ 4    male        group C                some college      standard   
+ 
+   test preparation course  math score  reading score  writing score  
+ 0                    none          72             72             74  
+ 1               completed          69             90             88  
+ 2                    none          90             95             93  
+ 3                    none          47             57             44  
+ 4                    none          76             78             75  )</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h3 id="initial-data-review">Initial Data Review</h3>
+<p>The dataset consists of 1000 entries with 8 columns. Here's a
+breakdown of the columns:</p>
+<ul>
+<li><strong>gender</strong> (object): Student's gender.</li>
+<li><strong>race/ethnicity</strong> (object): Categorized group.</li>
+<li><strong>parental level of education</strong> (object): Highest
+education level attained by the student's parents.</li>
+<li><strong>lunch</strong> (object): Type of lunch the student receives
+(indicative of socioeconomic status).</li>
+<li><strong>test preparation course</strong> (object): Whether the
+student completed a test preparation course.</li>
+<li><strong>math score</strong> (int64): Scores in mathematics.</li>
+<li><strong>reading score</strong> (int64): Scores in reading.</li>
+<li><strong>writing score</strong> (int64): Scores in writing.</li>
+</ul>
+<p>All columns are fully populated with no missing values.</p>
+<p>Data types are appropriate for each feature; categorical variables
+are represented as objects and scores as integers.</p>
+<h3 id="data-cleaning">Data Cleaning</h3>
+<p>Given that there are no missing values and data types are correctly
+assigned, we can proceed without immediate cleaning steps.</p>
+<p>However, we will validate the uniqueness and consistency of
+categorical data to ensure no hidden irregularities.</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Validate the uniqueness and consistency of categorical data</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>categories <span class="op">=</span> {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;gender&#39;</span>: students_data[<span class="st">&#39;gender&#39;</span>].unique(),</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;race/ethnicity&#39;</span>: students_data[<span class="st">&#39;race/ethnicity&#39;</span>].unique(),</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;parental level of education&#39;</span>: students_data[<span class="st">&#39;parental level of education&#39;</span>].unique(),</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;lunch&#39;</span>: students_data[<span class="st">&#39;lunch&#39;</span>].unique(),</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;test preparation course&#39;</span>: students_data[<span class="st">&#39;test preparation course&#39;</span>].unique()</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(categories)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;gender&#39;: array([&#39;female&#39;, &#39;male&#39;], dtype=object), &#39;race/ethnicity&#39;: array([&#39;group B&#39;, &#39;group C&#39;, &#39;group A&#39;, &#39;group D&#39;, &#39;group E&#39;],
+      dtype=object), &#39;parental level of education&#39;: array([&quot;bachelor&#39;s degree&quot;, &#39;some college&#39;, &quot;master&#39;s degree&quot;,
+       &quot;associate&#39;s degree&quot;, &#39;high school&#39;, &#39;some high school&#39;],
+      dtype=object), &#39;lunch&#39;: array([&#39;standard&#39;, &#39;free/reduced&#39;], dtype=object), &#39;test preparation course&#39;: array([&#39;none&#39;, &#39;completed&#39;], dtype=object)}
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h3 id="data-cleaning-validation">Data Cleaning Validation</h3>
+<p>The unique values for each categorical variable are as follows:</p>
+<ul>
+<li><strong>Gender</strong>: <code>['female', 'male']</code></li>
+<li><strong>Race/Ethnicity</strong>:
+<code>['group B', 'group C', 'group A', 'group D', 'group E']</code></li>
+<li><strong>Parental Level of Education</strong>:
+<code>["bachelor's degree", 'some college', "master's degree", "associate's degree", 'high school', 'some high school']</code></li>
+<li><strong>Lunch</strong>:
+<code>['standard', 'free/reduced']</code></li>
+<li><strong>Test Preparation Course</strong>:
+<code>['none', 'completed']</code></li>
+</ul>
+<p>The categorical data appears consistent and correctly categorized
+with no irregularities or unusual values. This confirms the data's
+readiness for further processing.</p>
+<h3 id="feature-engineering">Feature Engineering</h3>
+<p>Given the scores in mathematics, reading, and writing, we can create
+additional features to aid in our analysis, such as calculating an
+overall average score for each student.</p>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature Engineering: Adding an overall average score</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>students_data[<span class="st">&#39;average score&#39;</span>] <span class="op">=</span> students_data[[<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>]].mean(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the first few rows to confirm the addition</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>students_data.head() <span class="co"># Display the updated dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>race/ethnicity</th>
+      <th>parental level of education</th>
+      <th>lunch</th>
+      <th>test preparation course</th>
+      <th>math score</th>
+      <th>reading score</th>
+      <th>writing score</th>
+      <th>average score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>female</td>
+      <td>group B</td>
+      <td>bachelor's degree</td>
+      <td>standard</td>
+      <td>none</td>
+      <td>72</td>
+      <td>72</td>
+      <td>74</td>
+      <td>72.666667</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>female</td>
+      <td>group C</td>
+      <td>some college</td>
+      <td>standard</td>
+      <td>completed</td>
+      <td>69</td>
+      <td>90</td>
+      <td>88</td>
+      <td>82.333333</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>female</td>
+      <td>group B</td>
+      <td>master's degree</td>
+      <td>standard</td>
+      <td>none</td>
+      <td>90</td>
+      <td>95</td>
+      <td>93</td>
+      <td>92.666667</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>male</td>
+      <td>group A</td>
+      <td>associate's degree</td>
+      <td>free/reduced</td>
+      <td>none</td>
+      <td>47</td>
+      <td>57</td>
+      <td>44</td>
+      <td>49.333333</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>male</td>
+      <td>group C</td>
+      <td>some college</td>
+      <td>standard</td>
+      <td>none</td>
+      <td>76</td>
+      <td>78</td>
+      <td>75</td>
+      <td>76.333333</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>This new feature will provide a single score metric per student,
+which could be useful for overall performance analysis and comparisons.
+Let's run this code to create the feature and check the updated
+DataFrame.</p>
+<h3 id="feature-engineering-validation">Feature Engineering
+Validation</h3>
+<p>The new feature <strong>average score</strong> has been successfully
+added to the dataset.</p>
+<p>This average score will facilitate a broader analysis of student
+performance, allowing us to assess overall achievement rather than
+isolated subject scores.</p>
+<p>It also is integrated seamlessly into the existing dataset structure,
+maintaining consistency and clarity in the data representation, and
+reducing the need for repeated calculations.</p>
+<h3 id="data-transformation">Data Transformation</h3>
+<p>For some types of analysis, particularly involving machine learning
+algorithms that are sensitive to data scale (like clustering or PCA), it
+might be beneficial to normalize or standardize the score columns.</p>
+<p>However, for the scope of this tutorial and considering the nature of
+the scores (already on a similar scale from 0 to 100), we'll proceed
+without normalization.</p>
+<h3 id="exploratory-data-analysis-preparation">Exploratory Data Analysis
+Preparation</h3>
+<p>With the data now clean and enhanced with an additional feature,
+we're ready to proceed to the exploratory data analysis phase, where
+we'll visualize and mine the data to uncover patterns and insights.</p>
+<h1 id="exploratory-data-analysis">Exploratory Data Analysis</h1>
+<p>Let's start by importing the necessary libraries for data
+visualization and analysis (Matplotlib and Seaborn) and then proceed
+with the exploratory data analysis.</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div>
+</div>
+<section id="data-overview-and-descriptive-statistics"
+class="cell markdown">
+<h3>Data Overview and Descriptive Statistics</h3>
+<p>Let's begin by examining the summary statistics of the dataset to
+understand the distribution of scores and other variables.</p>
+</section>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display basic descriptive statistics for numeric data</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>descriptive_stats <span class="op">=</span> students_data.describe()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Overview of categorical data</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>categorical_stats <span class="op">=</span> students_data.describe(include<span class="op">=</span>[<span class="st">&#39;O&#39;</span>])</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the statistics</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>descriptive_stats, categorical_stats</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>(       math score  reading score  writing score  average score
+ count  1000.00000    1000.000000    1000.000000    1000.000000
+ mean     66.08900      69.169000      68.054000      67.770667
+ std      15.16308      14.600192      15.195657      14.257326
+ min       0.00000      17.000000      10.000000       9.000000
+ 25%      57.00000      59.000000      57.750000      58.333333
+ 50%      66.00000      70.000000      69.000000      68.333333
+ 75%      77.00000      79.000000      79.000000      77.666667
+ max     100.00000     100.000000     100.000000     100.000000,
+         gender race/ethnicity parental level of education     lunch  \
+ count     1000           1000                        1000      1000   
+ unique       2              5                           6         2   
+ top     female        group C                some college  standard   
+ freq       518            319                         226       645   
+ 
+        test preparation course  
+ count                     1000  
+ unique                       2  
+ top                       none  
+ freq                       642  )</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h4 id="basic-descriptive-statistics">Basic Descriptive Statistics:</h4>
+<ul>
+<li><strong>Math Score</strong>: Mean = 66.09, SD = 15.16, Min = 0, Max
+= 100</li>
+<li><strong>Reading Score</strong>: Mean = 69.17, SD = 14.60, Min = 17,
+Max = 100</li>
+<li><strong>Writing Score</strong>: Mean = 68.05, SD = 15.20, Min = 10,
+Max = 100</li>
+</ul>
+<h4 id="overview-of-categorical-data">Overview of Categorical Data:</h4>
+<ul>
+<li><strong>Gender</strong>: Two categories ('female' and 'male'), with
+'female' being slightly more frequent (518 out of 1000).</li>
+<li><strong>Race/Ethnicity</strong>: Five groups, with 'group C' being
+the most frequent (319 out of 1000).</li>
+<li><strong>Parental Level of Education</strong>: Six categories, 'some
+college' being the most common (226 out of 1000).</li>
+<li><strong>Lunch</strong>: Two types ('standard' and 'free/reduced'),
+with 'standard' being more common (645 out of 1000).</li>
+<li><strong>Test Preparation Course</strong>: Two statuses ('none' and
+'completed'), with 'none' being more frequent (642 out of 1000).</li>
+</ul>
+<h3 id="distribution-of-scores">Distribution of Scores</h3>
+<p>Let's visualize the distribution of scores for math, reading, and
+writing to better understand their spread and central tendencies.</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">18</span>, <span class="dv">5</span>))</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>sns.histplot(students_data[<span class="st">&#39;math score&#39;</span>], kde<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>axes[<span class="dv">0</span>], color<span class="op">=</span><span class="st">&#39;blue&#39;</span>).set_title(<span class="st">&#39;Math Score Distribution&#39;</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>sns.histplot(students_data[<span class="st">&#39;reading score&#39;</span>], kde<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>axes[<span class="dv">1</span>], color<span class="op">=</span><span class="st">&#39;green&#39;</span>).set_title(<span class="st">&#39;Reading Score Distribution&#39;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>sns.histplot(students_data[<span class="st">&#39;writing score&#39;</span>], kde<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>axes[<span class="dv">2</span>], color<span class="op">=</span><span class="st">&#39;red&#39;</span>).set_title(<span class="st">&#39;Writing Score Distribution&#39;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/49ee716b8b867a11789b1dbec243337f1b7499a8.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ol>
+<li><strong>Math Score Distribution</strong>: The histogram shows a
+roughly normal distribution with a slight skew towards higher
+scores.</li>
+<li><strong>Reading Score Distribution</strong>: This is also
+approximately normal but with a slight skew towards higher scores,
+similar to math scores.</li>
+<li><strong>Writing Score Distribution</strong>: Similar to reading and
+math, the writing scores are normally distributed with some skewness
+towards higher scores.</li>
+</ol>
+</div>
+<section id="correlations-among-scores" class="cell markdown">
+<h3>Correlations Among Scores</h3>
+<p>Now let's investigate the relationships between different test scores
+can provide insights into how students' performances in one area might
+relate to another.</p>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>score_corr <span class="op">=</span> students_data[[<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>]].corr()</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sns.heatmap(score_corr, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>).set_title(<span class="st">&#39;Correlation Matrix of Scores&#39;</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/60497e3db229c8ceb7afad0800394d5878688af9.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>The scores across different subjects show strong positive
+correlations, indicating that students who perform well in one subject
+tend to perform well in others. The correlation coefficients are above
+0.8, suggesting a very strong relationship between these academic
+performances.</li>
+</ul>
+</div>
+<section id="categorical-data-analysis" class="cell markdown">
+<h3>Categorical Data Analysis</h3>
+<p>Let's visualize how categorical variables such as gender and parental
+education level affect scores can highlight differences in performance
+across these dimensions.</p>
+</section>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">3</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">15</span>))</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;gender&#39;</span>, y<span class="op">=</span><span class="st">&#39;math score&#39;</span>, data<span class="op">=</span>students_data, ax<span class="op">=</span>axes[<span class="dv">0</span>]).set_title(<span class="st">&#39;Math Scores by Gender&#39;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;race/ethnicity&#39;</span>, y<span class="op">=</span><span class="st">&#39;reading score&#39;</span>, data<span class="op">=</span>students_data, ax<span class="op">=</span>axes[<span class="dv">1</span>]).set_title(<span class="st">&#39;Reading Scores by Race/Ethnicity&#39;</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;parental level of education&#39;</span>, y<span class="op">=</span><span class="st">&#39;writing score&#39;</span>, data<span class="op">=</span>students_data, ax<span class="op">=</span>axes[<span class="dv">2</span>]).set_title(<span class="st">&#39;Writing Scores by Parental Education&#39;</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/9f2f189f3f60356d8176348ea10a89e33d0aa18e.png" /></p>
+</div>
+</div>
+<section id="average-score-analysis" class="cell markdown">
+<h3>Average Score Analysis</h3>
+<p>Let's analyze the average scores across different categories to
+further identify trends and patterns in student performance.</p>
+</section>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Distribution of the average score</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>sns.histplot(students_data[<span class="st">&#39;average score&#39;</span>], kde<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&#39;purple&#39;</span>).set_title(<span class="st">&#39;Distribution of Average Scores&#39;</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot to analyze average scores by gender</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;gender&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, data<span class="op">=</span>students_data).set_title(<span class="st">&#39;Average Scores by Gender&#39;</span>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Average scores by lunch type (a proxy for socioeconomic status)</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;lunch&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, data<span class="op">=</span>students_data).set_title(<span class="st">&#39;Average Scores by Lunch Type&#39;</span>)</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Average scores by race/ethnicity</span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;race/ethnicity&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, data<span class="op">=</span>students_data).set_title(<span class="st">&#39;Average Scores by Race/Ethnicity&#39;</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Analyzing average scores by parental level of education</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;parental level of education&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, data<span class="op">=</span>students_data).set_title(<span class="st">&#39;Average Scores by Parental Education Level&#39;</span>)</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Heatmap to see correlations including the average score</span></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>full_score_corr <span class="op">=</span> students_data[[<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>, <span class="st">&#39;average score&#39;</span>]].corr()</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>sns.heatmap(full_score_corr, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>).set_title(<span class="st">&#39;Extended Correlation Matrix Including Average Score&#39;</span>)</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/7081faa8a06ee415b23335a424e1188a65535817.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/412da3600a016312771bedad5d329d1601130ce0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/86fd4df961d70ae55c3c15f99bd331730bb7be01.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/d531e5d1dcbb041037f58b95d78ab47cb2fcac76.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/583e9fd33455c93d077f41c9ff176e7e5aad810a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/1a719d183de1795b8c334560971a19016f40ad20.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ol>
+<li>Distribution of Average Scores
+<ul>
+<li>The histogram of average scores shows a normal distribution with a
+slight skew towards higher scores, which is consistent with the
+individual subject score distributions.</li>
+</ul></li>
+<li>Average Scores by Gender
+<ul>
+<li>The boxplot illustrates differences in average scores by gender.
+This may indicate that one gender could be slightly outperforming the
+other on average across subjects.</li>
+</ul></li>
+<li>Average Scores by Lunch Type
+<ul>
+<li>Lunch type, which can be an indicator of socioeconomic status, shows
+a clear distinction in average scores. Students with 'standard' lunch
+generally perform better than those with 'free/reduced' lunch,
+suggesting that economic factors play a significant role in academic
+performance.</li>
+</ul></li>
+<li>Average Scores by Race/Ethnicity
+<ul>
+<li>The boxplot reveals variations in average scores among different
+racial/ethnic groups. This could highlight disparities that may be
+influenced by a variety of socioeconomic and educational factors.</li>
+</ul></li>
+<li>Average Scores by Parental Education Level
+<ul>
+<li>There is a noticeable trend where students with parents who have
+higher levels of education tend to have higher average scores. This
+relationship underscores the potential impact of parental education on a
+student's academic achievements.</li>
+</ul></li>
+<li>Extended Correlation Matrix Including Average Score
+<ul>
+<li>The correlation matrix now includes the average score, which shows
+strong positive correlations with the individual subject scores. This
+supports the consistency of performance across different subjects for
+individual students.</li>
+</ul></li>
+</ol>
+<p>These insights further the understanding of how socio-economic
+status, parental background, and other demographic factors might
+influence student performance.</p>
+<p>They now provide us with a strong basis for more detailed statistical
+testing or predictive modeling to explore causality or predictions of
+future performance based on these factors.</p>
+</div>
+<section id="cross-category-analysis" class="cell markdown">
+<h3>Cross-Category Analysis</h3>
+<p>Let's delve deeper into the relationships between different
+categories and their impact on student performance, to manually observe
+patterns.</p>
+</section>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Analyzing the impact of test preparation course completion on average scores</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;test preparation course&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, data<span class="op">=</span>students_data).set_title(<span class="st">&#39;Average Scores by Test Preparation Course Status&#39;</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatter plot of math score vs. average score colored by lunch type</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span><span class="st">&#39;math score&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;lunch&#39;</span>, data<span class="op">=</span>students_data).set_title(<span class="st">&#39;Math Score vs. Average Score by Lunch Type&#39;</span>)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Exploring interaction between parental education and test preparation course on average scores</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.catplot(x<span class="op">=</span><span class="st">&#39;parental level of education&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;test preparation course&#39;</span>, kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, data<span class="op">=</span>students_data, height<span class="op">=</span><span class="dv">6</span>, aspect<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>g.set_xticklabels(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>g.fig.suptitle(<span class="st">&#39;Interaction of Parental Education and Test Preparation on Average Scores&#39;</span>, y<span class="op">=</span><span class="fl">1.02</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Examining distribution of scores across different race/ethnicity with KDE plots for a deeper look into the density and distribution</span></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">3</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">18</span>))</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(data<span class="op">=</span>students_data, x<span class="op">=</span><span class="st">&#39;math score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;race/ethnicity&#39;</span>, multiple<span class="op">=</span><span class="st">&#39;stack&#39;</span>, ax<span class="op">=</span>axes[<span class="dv">0</span>]).set_title(<span class="st">&#39;Density of Math Scores by Race/Ethnicity&#39;</span>)</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(data<span class="op">=</span>students_data, x<span class="op">=</span><span class="st">&#39;reading score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;race/ethnicity&#39;</span>, multiple<span class="op">=</span><span class="st">&#39;stack&#39;</span>, ax<span class="op">=</span>axes[<span class="dv">1</span>]).set_title(<span class="st">&#39;Density of Reading Scores by Race/Ethnicity&#39;</span>)</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(data<span class="op">=</span>students_data, x<span class="op">=</span><span class="st">&#39;writing score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;race/ethnicity&#39;</span>, multiple<span class="op">=</span><span class="st">&#39;stack&#39;</span>, ax<span class="op">=</span>axes[<span class="dv">2</span>]).set_title(<span class="st">&#39;Density of Writing Scores by Race/Ethnicity&#39;</span>)</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/bc9b92f15ddec101432709635b1255849d113bd7.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/3cab31fa75b9238c1c0bdbb222ba1717dcbd0a5f.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/aa9752993265718120a381e3a51ed090b248097a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/76ef36adb3897b95df34c013935f379a774ae97b.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ol>
+<li>Average Scores by Test Preparation Course Status
+<ul>
+<li><strong>Observations</strong>: Students who have completed a test
+preparation course generally achieve higher average scores compared to
+those who have not.</li>
+<li><strong>Analysis</strong>: The completion of test preparation
+courses appears to significantly enhance students' performance, as
+indicated by the higher median and narrower interquartile range in the
+scores of those who completed the course.</li>
+</ul></li>
+<li>Math Score vs. Average Score by Lunch Type
+<ul>
+<li><strong>Observations</strong>: There is a strong positive
+correlation between math scores and average scores, which is segmented
+by lunch type. Students with standard lunch generally score higher than
+those with free/reduced lunch.</li>
+<li><strong>Analysis</strong>: The type of lunch, serving as a proxy for
+socioeconomic status, impacts student performance. Those with standard
+lunches likely have more stable socioeconomic backgrounds, which
+correlate with better academic performance.</li>
+</ul></li>
+<li>Interaction of Parental Education and Test Preparation on Average
+Scores</li>
+</ol>
+<ul>
+<li><strong>Observations</strong>: Average scores increase with the
+level of parental education and are further enhanced by completion of
+test preparation courses.</li>
+<li><strong>Analysis</strong>: Parental education level serves as an
+influential factor in student performance, likely due to associated
+educational support at home. The impact is more pronounced when combined
+with test preparation courses.</li>
+</ul>
+<ol>
+<li>Density of Scores by Race/Ethnicity
+<ul>
+<li><strong>Math Scores</strong>:
+<ul>
+<li>Wider spreads in performance in groups with lower socioeconomic
+indicators.</li>
+<li>Higher peaks and tighter distributions in groups likely having
+better access to educational resources.</li>
+</ul></li>
+<li><strong>Reading and Writing Scores</strong>:
+<ul>
+<li>Similar patterns to math scores, with certain racial/ethnic groups
+showing higher median scores and tighter distributions.</li>
+</ul></li>
+<li><strong>Analysis</strong>: The density plots highlight disparities
+in scores across different demographic groups.</li>
+</ul></li>
+</ol>
+</div>
+<section id="multi-variable-analysis" class="cell markdown">
+<h3>Multi-Variable Analysis</h3>
+<p>Let's explore the interactions between multiple variables to uncover
+more nuanced relationships and patterns in student performance
+manually.</p>
+</section>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Analysis of variance in average scores by both gender and race/ethnicity using a boxplot</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">8</span>))</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;race/ethnicity&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;gender&#39;</span>, data<span class="op">=</span>students_data)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Average Scores by Race/Ethnicity and Gender&#39;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualizing the interaction of parental education, test preparation, and gender on average scores</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.catplot(x<span class="op">=</span><span class="st">&#39;parental level of education&#39;</span>, y<span class="op">=</span><span class="st">&#39;average score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;gender&#39;</span>, col<span class="op">=</span><span class="st">&#39;test preparation course&#39;</span>, kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, data<span class="op">=</span>students_data, height<span class="op">=</span><span class="dv">5</span>, aspect<span class="op">=</span><span class="fl">1.2</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>g.set_xticklabels(rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>g.fig.subplots_adjust(top<span class="op">=</span><span class="fl">0.9</span>)  <span class="co"># adjust the Figure in g</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>g.fig.suptitle(<span class="st">&#39;Interaction of Parental Education, Test Preparation, and Gender on Average Scores&#39;</span>)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Exploring correlations between numeric scores and creating a pair plot segmented by lunch type</span></span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>pair_grid <span class="op">=</span> sns.pairplot(data<span class="op">=</span>students_data, <span class="bu">vars</span><span class="op">=</span>[<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>], hue<span class="op">=</span><span class="st">&#39;lunch&#39;</span>, palette<span class="op">=</span><span class="st">&#39;bright&#39;</span>)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>pair_grid.fig.suptitle(<span class="st">&#39;Pair Plot of Scores Segmented by Lunch Type&#39;</span>, y<span class="op">=</span><span class="fl">1.02</span>)</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Density plots to examine score distributions more closely by test preparation course across different subjects</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">3</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">18</span>))</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(data<span class="op">=</span>students_data, x<span class="op">=</span><span class="st">&#39;math score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;test preparation course&#39;</span>, multiple<span class="op">=</span><span class="st">&#39;fill&#39;</span>, ax<span class="op">=</span>axes[<span class="dv">0</span>]).set_title(<span class="st">&#39;Filled Density of Math Scores by Test Preparation Course&#39;</span>)</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(data<span class="op">=</span>students_data, x<span class="op">=</span><span class="st">&#39;reading score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;test preparation course&#39;</span>, multiple<span class="op">=</span><span class="st">&#39;fill&#39;</span>, ax<span class="op">=</span>axes[<span class="dv">1</span>]).set_title(<span class="st">&#39;Filled Density of Reading Scores by Test Preparation Course&#39;</span>)</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(data<span class="op">=</span>students_data, x<span class="op">=</span><span class="st">&#39;writing score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;test preparation course&#39;</span>, multiple<span class="op">=</span><span class="st">&#39;fill&#39;</span>, ax<span class="op">=</span>axes[<span class="dv">2</span>]).set_title(<span class="st">&#39;Filled Density of Writing Scores by Test Preparation Course&#39;</span>)</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatter plot with trend lines for Math vs. Reading scores segmented by lunch type</span></span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>sns.lmplot(x<span class="op">=</span><span class="st">&#39;math score&#39;</span>, y<span class="op">=</span><span class="st">&#39;reading score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;lunch&#39;</span>, data<span class="op">=</span>students_data, markers<span class="op">=</span>[<span class="st">&#39;o&#39;</span>, <span class="st">&#39;x&#39;</span>], palette<span class="op">=</span><span class="st">&#39;Set1&#39;</span>, aspect<span class="op">=</span><span class="fl">1.5</span>)</span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Math vs. Reading Scores by Lunch Type&#39;</span>)</span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatter plot with trend lines for Reading vs. Writing scores segmented by lunch type</span></span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>sns.lmplot(x<span class="op">=</span><span class="st">&#39;reading score&#39;</span>, y<span class="op">=</span><span class="st">&#39;writing score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;lunch&#39;</span>, data<span class="op">=</span>students_data, markers<span class="op">=</span>[<span class="st">&#39;o&#39;</span>, <span class="st">&#39;x&#39;</span>], palette<span class="op">=</span><span class="st">&#39;Set1&#39;</span>, aspect<span class="op">=</span><span class="fl">1.5</span>)</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Reading vs. Writing Scores by Lunch Type&#39;</span>)</span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatter plot with trend lines for Math vs. Writing scores segmented by lunch type</span></span>
+<span id="cb15-42"><a href="#cb15-42" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb15-43"><a href="#cb15-43" aria-hidden="true" tabindex="-1"></a>sns.lmplot(x<span class="op">=</span><span class="st">&#39;math score&#39;</span>, y<span class="op">=</span><span class="st">&#39;writing score&#39;</span>, hue<span class="op">=</span><span class="st">&#39;lunch&#39;</span>, data<span class="op">=</span>students_data, markers<span class="op">=</span>[<span class="st">&#39;o&#39;</span>, <span class="st">&#39;x&#39;</span>], palette<span class="op">=</span><span class="st">&#39;Set1&#39;</span>, aspect<span class="op">=</span><span class="fl">1.5</span>)</span>
+<span id="cb15-44"><a href="#cb15-44" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Math vs. Writing Scores by Lunch Type&#39;</span>)</span>
+<span id="cb15-45"><a href="#cb15-45" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/fb24a5c60e72997cebb627a69dead44376320e01.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/a3332c6e0bbf4c08b078585507a92c73e421d8e6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/a9c66e537ef0053a4916f012c760d1f80c2ed8f2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/79192f866efe6ee8d86523e3ab11e4ff01d4b82e.png" /></p>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1000x600 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/106df50cec1afda61d4b48e0d5f960e4efb1f913.png" /></p>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1000x600 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/d8b3c7a039667aeda7b383b91d36275c0646d814.png" /></p>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1000x600 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/0e20c0f3d6bcba7515e4e00097c509ed89a5d35e.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ol>
+<li>Distribution of Average Scores by Race/Ethnicity and Gender</li>
+</ol>
+<ul>
+<li><strong>Observations</strong>: The plot showcases the distribution
+of average scores across different race/ethnicity groups segmented by
+gender.</li>
+<li><strong>Analysis</strong>:
+<ul>
+<li><strong>Race/Ethnicity Variance</strong>: There is noticeable
+variance in scores across different racial/ethnic groups.</li>
+<li><strong>Gender Differences</strong>: In some groups, such as Group
+E, males tend to have slightly higher median scores than females,
+whereas in other groups, like Group C, the distribution is more
+balanced.</li>
+</ul></li>
+</ul>
+<ol>
+<li>Interaction of Parental Education, Test Preparation, and Gender on
+Average Scores</li>
+</ol>
+<ul>
+<li><strong>Observations</strong>: The bar charts display average scores
+based on parental education levels, comparing scores between genders and
+based on whether students completed a test preparation course.</li>
+<li><strong>Analysis</strong>:
+<ul>
+<li><strong>Parental Education Impact</strong>: Higher levels of
+parental education generally correlate with higher average scores.</li>
+<li><strong>Gender and Test Preparation Influence</strong>: Completing a
+test preparation course generally boosts scores across all parental
+education levels and for both genders, though the impact is more
+pronounced in some groups than others.</li>
+</ul></li>
+</ul>
+<ol>
+<li>Pair Plot of Scores Segmented by Lunch Type</li>
+</ol>
+<ul>
+<li><strong>Observations</strong>: Scatter and density plots for math,
+reading, and writing scores, segmented by lunch type.</li>
+<li><strong>Analysis</strong>:
+<ul>
+<li><strong>Correlations</strong>: Strong positive correlations exist
+between all three academic scores, with variations in density
+distributions indicating differences in score concentration and spread
+based on lunch type.</li>
+<li><strong>Socioeconomic Status Indicators</strong>: Standard lunch
+typically correlates with higher scores and a more concentrated density,
+while free/reduced lunch is associated with a broader spread of lower
+scores.</li>
+</ul></li>
+</ul>
+<ol>
+<li>Filled Density of Scores by Test Preparation Course</li>
+</ol>
+<ul>
+<li><strong>Observations</strong>: Density plots filled by the
+proportion of students who completed a test preparation course versus
+those who did not, across math, reading, and writing scores.</li>
+<li><strong>Analysis</strong>:
+<ul>
+<li><strong>Effectiveness of Test Preparation</strong>: Students who
+completed test preparation courses not only have higher density peaks
+but also higher overall score ranges.</li>
+</ul></li>
+</ul>
+</div>
+<section id="model-analysis-hypothesis-testing-machine-learning"
+class="cell markdown">
+<h1>Model: Analysis, Hypothesis Testing, Machine Learning</h1>
+<h3 id="basic-hypothesis-testing">Basic Hypothesis Testing</h3>
+<p>Having explored the dataset and gained insights into the factors
+influencing student performance, we can now move on to a basic
+hypothesis test and a simple Linear Regression model to predict student
+performance based on the available features.</p>
+</section>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, confusion_matrix</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, r2_score</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> ttest_ind, f_oneway</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data separately to avoid modifying the original dataframe</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> students_data.copy()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create dummy variables for categorical features</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>data_encoded <span class="op">=</span> pd.get_dummies(data, columns<span class="op">=</span>[<span class="st">&#39;gender&#39;</span>, <span class="st">&#39;race/ethnicity&#39;</span>, <span class="st">&#39;parental level of education&#39;</span>, <span class="st">&#39;lunch&#39;</span>, <span class="st">&#39;test preparation course&#39;</span>])</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Hypothesis 1: Test if students who completed the test preparation course score significantly higher</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>group1 <span class="op">=</span> data[data[<span class="st">&#39;test preparation course&#39;</span>] <span class="op">==</span> <span class="st">&#39;completed&#39;</span>][<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>group2 <span class="op">=</span> data[data[<span class="st">&#39;test preparation course&#39;</span>] <span class="op">==</span> <span class="st">&#39;none&#39;</span>][<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a><span class="co"># T-test</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>t_stat, p_val <span class="op">=</span> ttest_ind(group1, group2)</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;T-test between test prep completed vs. none: t-statistic = </span><span class="sc">{</span>t_stat<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>p_val<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Hypothesis 2: Analyze if parental education level affects scores</span></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>anova_results <span class="op">=</span> f_oneway(</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;some high school&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;high school&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;some college&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;associate&#39;s degree&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;bachelor&#39;s degree&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;master&#39;s degree&quot;</span>][<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;ANOVA test on parental education levels: F-statistic = </span><span class="sc">{</span>anova_results<span class="sc">.</span>statistic<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>anova_results<span class="sc">.</span>pvalue<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Model Building: Predicting average score using linear regression</span></span>
+<span id="cb20-28"><a href="#cb20-28" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> data_encoded.drop([<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>, <span class="st">&#39;average score&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb20-29"><a href="#cb20-29" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> data[<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb20-30"><a href="#cb20-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-31"><a href="#cb20-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data</span></span>
+<span id="cb20-32"><a href="#cb20-32" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(features, target, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb20-33"><a href="#cb20-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-34"><a href="#cb20-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Linear Regression Model</span></span>
+<span id="cb20-35"><a href="#cb20-35" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb20-36"><a href="#cb20-36" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb20-37"><a href="#cb20-37" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb20-38"><a href="#cb20-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-39"><a href="#cb20-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Model evaluation</span></span>
+<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> model.score(X_test, y_test)</span>
+<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb20-45"><a href="#cb20-45" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb20-46"><a href="#cb20-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model R² score: </span><span class="sc">{</span>r2<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>T-test between test prep completed vs. none: t-statistic = 8.390944443482592, p-value = 1.633780203592351e-16
+ANOVA test on parental education levels: F-statistic = 10.753146962336567, p-value = 4.3810464809431664e-10
+Model Accuracy: 0.1341065260435773
+Model Mean Squared Error: 185.6186111111111
+Model R² score: 0.1341065260435773
+</code></pre>
+</div>
+</div>
+<section id="feature-plotting" class="cell markdown">
+<h4>Feature Plotting</h4>
+<p>Let's visualize the relationships between different features and the
+target variable (average score) to identify potential patterns and
+correlations.</p>
+</section>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the residuals to understand the distribution</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>residuals <span class="op">=</span> y_test <span class="op">-</span> y_pred</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>sns.histplot(residuals, kde<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Residuals&#39;</span>)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Residuals&#39;</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Frequency&#39;</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatter plot of actual vs. predicted scores to visualize prediction accuracy</span></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>plt.scatter(y_test, y_pred, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>plt.plot([y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], [y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], <span class="st">&#39;k--&#39;</span>, lw<span class="op">=</span><span class="dv">4</span>)  <span class="co"># Adding a perfect prediction line</span></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs. Predicted Scores&#39;</span>)</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Scores&#39;</span>)</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Scores&#39;</span>)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking the importance of features</span></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>coefficients <span class="op">=</span> pd.DataFrame(model.coef_, X_test.columns, columns<span class="op">=</span>[<span class="st">&#39;Coefficient&#39;</span>])</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>coefficients.sort_values(by<span class="op">=</span><span class="st">&#39;Coefficient&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span>coefficients.Coefficient, y<span class="op">=</span>coefficients.index)</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Feature Importance&#39;</span>)</span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Coefficient Value&#39;</span>)</span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/d328bc2544a9631cb28e4075d871f11139555b52.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/20b6b3cfb319ca19e27c0c83c7cae4ab7f31f18c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/d0643e3a6ed9650c6da1e748c9adea12b29a9a09.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<h4 id="basic-model--hypothesis-testing-analysis">Basic Model +
+Hypothesis Testing Analysis</h4>
+<h3 id="hypothesis-testing-results">Hypothesis Testing Results</h3>
+<ul>
+<li><strong>Test Preparation Course Impact (T-test)</strong>:
+<ul>
+<li><strong>Results</strong>: The T-test between students who completed
+the test preparation course and those who did not shows a significant
+difference in average scores (t-statistic = 8.39, p-value &lt;
+0.00001).</li>
+<li><strong>Interpretation</strong>: This result strongly suggests that
+completing the test preparation course significantly improves students'
+average scores. The very low p-value indicates that the probability of
+observing such a substantial effect by chance is extremely minimal.</li>
+</ul></li>
+<li><strong>Parental Education Level Influence (ANOVA)</strong>:
+<ul>
+<li><strong>Results</strong>: The ANOVA test across different levels of
+parental education shows significant differences in student scores
+(F-statistic = 10.753, p-value &lt; 0.00001).</li>
+<li><strong>Interpretation</strong>: There is a statistically
+significant impact of parental education levels on student performance.
+Students whose parents have higher education levels tend to perform
+better academically, which could be attributed to various socio-economic
+factors and educational support.</li>
+</ul></li>
+</ul>
+<h3 id="regression-model-evaluation">Regression Model Evaluation</h3>
+<ul>
+<li><strong>Residuals Analysis</strong>:
+<ul>
+<li>The distribution of residuals shows a roughly normal distribution,
+albeit with some outliers. This indicates that while the model generally
+predicts reasonable values for average scores, there are cases where the
+predictions are significantly off.</li>
+<li>The presence of residuals across the spectrum suggests some
+heteroscedasticity, meaning the model's predictive accuracy varies
+across the range of scores.</li>
+</ul></li>
+<li><strong>Actual vs. Predicted Scores</strong>:
+<ul>
+<li>The scatter plot of actual versus predicted scores shows a
+correlation, but with considerable spread around the line of perfect
+prediction. This visual supports the relatively low R² value, indicating
+that the model explains only about 13.41% of the variance in average
+scores.</li>
+<li>The model's limited explanatory power and the spread of points
+suggest that additional variables or more complex models might be
+necessary to capture the full dynamics affecting student
+performance.</li>
+</ul></li>
+</ul>
+<h3 id="feature-importance">Feature Importance</h3>
+<ul>
+<li>The bar chart of feature importance reveals which variables have the
+most significant impact on average scores. Notably:
+<ul>
+<li><strong>Test preparation course completion</strong> is a highly
+positive predictor, aligning with the T-test findings that completing
+these courses is associated with higher scores.</li>
+<li><strong>Parental education levels</strong> (particularly having
+parents with bachelor's or master's degrees) positively influence
+scores, also consistent with the ANOVA results.</li>
+<li><strong>Lunch type</strong> (standard vs. free/reduced) shows that
+students receiving a standard lunch, likely indicative of higher
+socio-economic status, tend to score higher.</li>
+</ul></li>
+</ul>
+<p>Given the current model's limitations, especially with its
+significantly low accuracy of around just 13%, exploring more complex
+modeling approaches will provide deeper insights and better predictive
+accuracy.</p>
+</div>
+<section id="logistic-regression-model" class="cell markdown">
+<h3>Logistic Regression Model</h3>
+<p>Let's apply a Logistic Regression model to predict whether a student
+will pass or fail based on the available features, to explore a
+different type of predictive analysis that is still simple and
+interpretable.</p>
+</section>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load and prepare the data</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> students_data.copy()</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert scores to a binary &#39;pass&#39; or &#39;fail&#39; based on an average score threshold of 50</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;passed&#39;</span>] <span class="op">=</span> np.where(data[<span class="st">&#39;average score&#39;</span>] <span class="op">&gt;=</span> <span class="dv">50</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create dummy variables for categorical features</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>data_encoded <span class="op">=</span> pd.get_dummies(data, columns<span class="op">=</span>[<span class="st">&#39;gender&#39;</span>, <span class="st">&#39;race/ethnicity&#39;</span>, <span class="st">&#39;parental level of education&#39;</span>, <span class="st">&#39;lunch&#39;</span>, <span class="st">&#39;test preparation course&#39;</span>])</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Hypothesis testing as previously</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>group1 <span class="op">=</span> data[data[<span class="st">&#39;test preparation course&#39;</span>] <span class="op">==</span> <span class="st">&#39;completed&#39;</span>][<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>group2 <span class="op">=</span> data[data[<span class="st">&#39;test preparation course&#39;</span>] <span class="op">==</span> <span class="st">&#39;none&#39;</span>][<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>t_stat, p_val <span class="op">=</span> ttest_ind(group1, group2)</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;T-test between test prep completed vs. none: t-statistic = </span><span class="sc">{</span>t_stat<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>p_val<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>anova_results <span class="op">=</span> f_oneway(</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;some high school&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;high school&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;some college&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;associate&#39;s degree&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;bachelor&#39;s degree&quot;</span>][<span class="st">&#39;average score&#39;</span>],</span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>    data[data[<span class="st">&#39;parental level of education&#39;</span>] <span class="op">==</span> <span class="st">&quot;master&#39;s degree&quot;</span>][<span class="st">&#39;average score&#39;</span>]</span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;ANOVA test on parental education levels: F-statistic = </span><span class="sc">{</span>anova_results<span class="sc">.</span>statistic<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>anova_results<span class="sc">.</span>pvalue<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up features and target for logistic regression</span></span>
+<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> data_encoded.drop([<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>, <span class="st">&#39;average score&#39;</span>, <span class="st">&#39;passed&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> data[<span class="st">&#39;passed&#39;</span>]</span>
+<span id="cb23-29"><a href="#cb23-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-30"><a href="#cb23-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data</span></span>
+<span id="cb23-31"><a href="#cb23-31" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(features, target, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb23-32"><a href="#cb23-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-33"><a href="#cb23-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Logistic Regression Model</span></span>
+<span id="cb23-34"><a href="#cb23-34" aria-hidden="true" tabindex="-1"></a>logistic_model <span class="op">=</span> LogisticRegression(max_iter<span class="op">=</span><span class="dv">1000</span>)</span>
+<span id="cb23-35"><a href="#cb23-35" aria-hidden="true" tabindex="-1"></a>logistic_model.fit(X_train, y_train)</span>
+<span id="cb23-36"><a href="#cb23-36" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> logistic_model.predict(X_test)</span>
+<span id="cb23-37"><a href="#cb23-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-38"><a href="#cb23-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Model evaluation</span></span>
+<span id="cb23-39"><a href="#cb23-39" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb23-40"><a href="#cb23-40" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb23-41"><a href="#cb23-41" aria-hidden="true" tabindex="-1"></a>conf_matrix <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb23-42"><a href="#cb23-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-43"><a href="#cb23-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb23-44"><a href="#cb23-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb23-45"><a href="#cb23-45" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:&quot;</span>)</span>
+<span id="cb23-46"><a href="#cb23-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(conf_matrix)</span>
+<span id="cb23-47"><a href="#cb23-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-48"><a href="#cb23-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the confusion matrix</span></span>
+<span id="cb23-49"><a href="#cb23-49" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb23-50"><a href="#cb23-50" aria-hidden="true" tabindex="-1"></a>sns.heatmap(conf_matrix, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&#39;d&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>)</span>
+<span id="cb23-51"><a href="#cb23-51" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix&#39;</span>)</span>
+<span id="cb23-52"><a href="#cb23-52" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted Labels&#39;</span>)</span>
+<span id="cb23-53"><a href="#cb23-53" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;True Labels&#39;</span>)</span>
+<span id="cb23-54"><a href="#cb23-54" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb23-55"><a href="#cb23-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-56"><a href="#cb23-56" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying the coefficients as feature importances</span></span>
+<span id="cb23-57"><a href="#cb23-57" aria-hidden="true" tabindex="-1"></a>coefficients <span class="op">=</span> pd.DataFrame(logistic_model.coef_.flatten(), X_train.columns, columns<span class="op">=</span>[<span class="st">&#39;Coefficient&#39;</span>])</span>
+<span id="cb23-58"><a href="#cb23-58" aria-hidden="true" tabindex="-1"></a>coefficients.sort_values(by<span class="op">=</span><span class="st">&#39;Coefficient&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-59"><a href="#cb23-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-60"><a href="#cb23-60" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb23-61"><a href="#cb23-61" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span>coefficients.Coefficient, y<span class="op">=</span>coefficients.index)</span>
+<span id="cb23-62"><a href="#cb23-62" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Feature Importance in Logistic Regression&#39;</span>)</span>
+<span id="cb23-63"><a href="#cb23-63" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Coefficient Value&#39;</span>)</span>
+<span id="cb23-64"><a href="#cb23-64" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>T-test between test prep completed vs. none: t-statistic = 8.390944443482592, p-value = 1.633780203592351e-16
+ANOVA test on parental education levels: F-statistic = 10.753146962336567, p-value = 4.3810464809431664e-10
+Model Accuracy: 0.86
+Model Mean Squared Error: 0.14
+Confusion Matrix:
+[[  0  27]
+ [  1 172]]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/c1ca2ba7ec3750c3112e1b2388c5f82d65803520.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/280871656582fef6907d2f02764d4599d5617f00.png" /></p>
+</div>
+</div>
+<section id="logistic-regression-analysis--hypothesis-testing-results"
+class="cell markdown">
+<h3>Logistic Regression Analysis &amp; Hypothesis Testing Results</h3>
+<h4 id="hypothesis-testing-results">Hypothesis Testing Results</h4>
+<ul>
+<li><strong>Test Preparation Course Impact (T-test)</strong>:
+<ul>
+<li><strong>Results</strong>: The T-test results show a significant
+difference in average scores between students who completed the test
+preparation course and those who did not, with a t-statistic of 8.39 and
+a p-value well below the 0.00001 threshold.</li>
+<li><strong>Interpretation</strong>: This substantial difference
+strongly suggests that completing the test preparation course
+significantly enhances students' average scores. The extremely low
+p-value underscores the unlikely chance that such a distinct effect is
+due to random variation.</li>
+</ul></li>
+<li><strong>Parental Education Level Influence (ANOVA)</strong>:
+<ul>
+<li><strong>Results</strong>: The ANOVA test indicates significant
+variances in student scores based on the level of parental education,
+with an F-statistic of 10.753 and a p-value significantly less than
+0.00001.</li>
+<li><strong>Interpretation</strong>: These findings confirm a
+statistically significant correlation between parental education levels
+and student academic performance. Higher parental education levels
+generally lead to better student outcomes, possibly due to increased
+educational support or socioeconomic advantages.</li>
+</ul></li>
+</ul>
+<h4 id="logistic-regression-model-evaluation">Logistic Regression Model
+Evaluation</h4>
+<ul>
+<li><strong>Model Accuracy</strong>:
+<ul>
+<li>The logistic regression model achieved an accuracy of 86%, which is
+robust for classification tasks. However, the confusion matrix reveals a
+notable imbalance in predictive capability, particularly in failing to
+predict any of the few cases classified as failing (score below
+50).</li>
+</ul></li>
+<li><strong>Confusion Matrix</strong>:
+<ul>
+<li>The model predicted the majority class ('passed') with high accuracy
+but failed entirely to predict the minority class ('failed'). This
+suggests a model bias towards the majority class, which could be due to
+an imbalance in the dataset or the model's sensitivity to class
+distribution.</li>
+</ul></li>
+<li><strong>Feature Importance</strong>:
+<ul>
+<li>The coefficients derived from the logistic regression provide
+insights into which features most influence the likelihood of a student
+passing:
+<ul>
+<li><strong>Parental Education</strong>: Higher degrees (Master's,
+Bachelor's) positively influence passing chances.</li>
+<li><strong>Lunch Type</strong>: Standard lunch, a proxy for better
+socioeconomic status, is associated with higher passing rates.</li>
+<li><strong>Test Preparation</strong>: Completion of a test preparation
+course is a strong positive predictor, consistent with the T-test
+findings.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="advanced-model-logistic-regression-with-smote"
+class="cell markdown">
+<h3>Advanced Model: Logistic Regression with SMOTE</h3>
+<p>To address the imbalance in the dataset and improve the model's
+predictive performance, we'll apply the Synthetic Minority Over-sampling
+Technique (SMOTE) to upsample the minority class ('failed') and retrain
+the logistic regression model.</p>
+</section>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling <span class="im">import</span> SMOTE</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> PolynomialFeatures</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, confusion_matrix</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load and prepare the data</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> students_data.copy()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;passed&#39;</span>] <span class="op">=</span> np.where(data[<span class="st">&#39;average score&#39;</span>] <span class="op">&gt;=</span> <span class="dv">50</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>data_encoded <span class="op">=</span> pd.get_dummies(data, columns<span class="op">=</span>[</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;gender&#39;</span>, <span class="st">&#39;race/ethnicity&#39;</span>, <span class="st">&#39;parental level of education&#39;</span>, <span class="st">&#39;lunch&#39;</span>, <span class="st">&#39;test preparation course&#39;</span>])</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up features and target</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> data_encoded.drop([<span class="st">&#39;math score&#39;</span>, <span class="st">&#39;reading score&#39;</span>, <span class="st">&#39;writing score&#39;</span>, <span class="st">&#39;average score&#39;</span>, <span class="st">&#39;passed&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> data[<span class="st">&#39;passed&#39;</span>]</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(features, target, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply SMOTE to balance class distribution</span></span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>smote <span class="op">=</span> SMOTE(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>X_train_res, y_train_res <span class="op">=</span> smote.fit_resample(X_train, y_train)</span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a pipeline that applies polynomial features and then fits a logistic regression</span></span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>pipeline <span class="op">=</span> Pipeline([</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>    (<span class="st">&#39;poly&#39;</span>, PolynomialFeatures(degree<span class="op">=</span><span class="dv">2</span>, include_bias<span class="op">=</span><span class="va">False</span>, interaction_only<span class="op">=</span><span class="va">True</span>)),</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>    (<span class="st">&#39;logistic&#39;</span>, LogisticRegression(max_iter<span class="op">=</span><span class="dv">1000</span>, class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>, random_state<span class="op">=</span><span class="dv">42</span>))</span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the pipeline on the resampled data</span></span>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>pipeline.fit(X_train_res, y_train_res)</span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Predict on the test set using the pipeline</span></span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> pipeline.predict(X_test)</span>
+<span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Model evaluation</span></span>
+<span id="cb26-31"><a href="#cb26-31" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb26-32"><a href="#cb26-32" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb26-33"><a href="#cb26-33" aria-hidden="true" tabindex="-1"></a>conf_matrix <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb26-34"><a href="#cb26-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-35"><a href="#cb26-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb26-36"><a href="#cb26-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Model Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb26-37"><a href="#cb26-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:&quot;</span>)</span>
+<span id="cb26-38"><a href="#cb26-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(conf_matrix)</span>
+<span id="cb26-39"><a href="#cb26-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-40"><a href="#cb26-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-41"><a href="#cb26-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the confusion matrix</span></span>
+<span id="cb26-42"><a href="#cb26-42" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb26-43"><a href="#cb26-43" aria-hidden="true" tabindex="-1"></a>sns.heatmap(conf_matrix, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&#39;d&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>)</span>
+<span id="cb26-44"><a href="#cb26-44" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Adjusted Confusion Matrix&#39;</span>)</span>
+<span id="cb26-45"><a href="#cb26-45" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted Labels&#39;</span>)</span>
+<span id="cb26-46"><a href="#cb26-46" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;True Labels&#39;</span>)</span>
+<span id="cb26-47"><a href="#cb26-47" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb26-48"><a href="#cb26-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-49"><a href="#cb26-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Display feature importances including interactions</span></span>
+<span id="cb26-50"><a href="#cb26-50" aria-hidden="true" tabindex="-1"></a>importance <span class="op">=</span> pipeline.named_steps[<span class="st">&#39;logistic&#39;</span>].coef_[<span class="dv">0</span>]</span>
+<span id="cb26-51"><a href="#cb26-51" aria-hidden="true" tabindex="-1"></a>feature_names <span class="op">=</span> pipeline.named_steps[<span class="st">&#39;poly&#39;</span>].get_feature_names_out(input_features<span class="op">=</span>features.columns)</span>
+<span id="cb26-52"><a href="#cb26-52" aria-hidden="true" tabindex="-1"></a>coefficients <span class="op">=</span> pd.DataFrame(importance, index<span class="op">=</span>feature_names, columns<span class="op">=</span>[<span class="st">&#39;Coefficient&#39;</span>])</span>
+<span id="cb26-53"><a href="#cb26-53" aria-hidden="true" tabindex="-1"></a>coefficients.sort_values(by<span class="op">=</span><span class="st">&#39;Coefficient&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-54"><a href="#cb26-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-55"><a href="#cb26-55" aria-hidden="true" tabindex="-1"></a><span class="co"># Display only the top 30 features to avoid clutter</span></span>
+<span id="cb26-56"><a href="#cb26-56" aria-hidden="true" tabindex="-1"></a>top_coefficients <span class="op">=</span> coefficients.head(<span class="dv">30</span>)</span>
+<span id="cb26-57"><a href="#cb26-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-58"><a href="#cb26-58" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">12</span>))</span>
+<span id="cb26-59"><a href="#cb26-59" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span>top_coefficients.Coefficient, y<span class="op">=</span>top_coefficients.index)</span>
+<span id="cb26-60"><a href="#cb26-60" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Top 30 Feature Importances in Adjusted Logistic Regression&#39;</span>)</span>
+<span id="cb26-61"><a href="#cb26-61" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Coefficient Value&#39;</span>)</span>
+<span id="cb26-62"><a href="#cb26-62" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model Accuracy: 0.83
+Model Mean Squared Error: 0.17
+Confusion Matrix:
+[[  5  22]
+ [ 12 161]]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/3d561fd51474ad8806ec76fd6f1c4f6b550d6ddb.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/dc648511f3a51b58f3cb892d24fac7cf382514ca.png" /></p>
+</div>
+</div>
+<section id="advanced-model-analysis" class="cell markdown">
+<h3>Advanced Model Analysis</h3>
+<h4 id="model-description">Model Description</h4>
+<p>SMOTE is an oversampling method that generates synthetic samples from
+the minority class to balance the class distribution. It operates by
+creating synthetic instances rather than by over-sampling with
+replacement. This is paired with a logistic regression model that is
+designed to handle binary classification tasks effectively, predicting a
+binary outcome ('pass' or 'fail') for each student.</p>
+<h4 id="model-implementation-and-performance">Model Implementation and
+Performance</h4>
+<p>The logistic regression model was applied after balancing the class
+distribution with SMOTE on the training data. This implementation aimed
+to enhance the model's ability to generalize better to unseen data by
+mitigating the bias towards the majority class, which often occurs in
+imbalanced datasets.</p>
+<ul>
+<li><strong>Accuracy and Mean Squared Error (MSE):</strong>
+<ul>
+<li>The model achieved an accuracy of 83% and a mean squared error of
+0.17. While these metrics suggest a reasonably good model performance,
+they don't fully capture the impact of addressing the class
+imbalance.</li>
+</ul></li>
+<li><strong>Confusion Matrix Analysis:</strong>
+<ul>
+<li>The confusion matrix revealed that the model correctly predicted the
+majority of passing students but also misclassified a significant number
+of failing students as passing. Specifically, it identified 5 true
+negatives and 161 true positives but also resulted in 22 false negatives
+and 12 false positives.</li>
+</ul></li>
+</ul>
+<h4 id="detailed-analysis">Detailed Analysis</h4>
+<ul>
+<li><strong>Impact of SMOTE:</strong>
+<ul>
+<li>The primary benefit of incorporating SMOTE was the enhanced
+sensitivity towards the minority class (failing students). By
+synthesizing new examples in the minority class, the model was better
+trained to recognize patterns indicative of failures, which are
+typically under-represented in the dataset.</li>
+</ul></li>
+<li><strong>Comparison to Non-SMOTE Models:</strong>
+<ul>
+<li>When compared to logistic regression models without SMOTE, the
+standard model without this technique might show higher overall accuracy
+but at the cost of higher bias towards the majority class. This often
+results in poor identification of the minority class, which is a
+critical flaw when the cost of misclassification is high (e.g., failing
+students needing intervention).</li>
+</ul></li>
+<li><strong>Feature Importance:</strong>
+<ul>
+<li>The analysis of feature importances revealed that factors such as
+parental education level, particularly higher education degrees, and
+completion of test preparation courses significantly influence the
+model's predictions. These features likely correlate with a higher
+likelihood of passing, echoing findings from educational research.</li>
+</ul></li>
+</ul>
+<h4 id="conclusion">Conclusion</h4>
+<p>While the SMOTE-enhanced logistic regression model shows a
+commendable performance in handling class imbalance, it is essential to
+consider the trade-offs such as potentially increased false positives.
+The strength of this model lies in its improved fairness and equity in
+prediction — crucial for educational settings where early identification
+of at-risk students can lead to timely and effective interventions.</p>
+</section>
+<section id="interpretation-and-recommendations" class="cell markdown">
+<h1>Interpretation and Recommendations</h1>
+<h4 id="insights-drawn-from-data-analysis">Insights Drawn from Data
+Analysis</h4>
+<p>The application of the logistic regression model enhanced by SMOTE on
+student performance data provides critical insights into factors
+influencing educational outcomes. Our analysis indicates that:</p>
+<ol>
+<li><strong>Parental Influence</strong>: Students whose parents have
+higher educational achievements tend to perform better academically.
+This correlation highlights the role of familial support in educational
+success.</li>
+<li><strong>Preparatory Programs</strong>: Completion of test
+preparation courses significantly boosts students' chances of passing,
+underscoring the effectiveness of preparatory education.</li>
+<li><strong>Socioeconomic Factors</strong>: The type of lunch students
+receive, which serves as a proxy for socioeconomic status, strongly
+correlates with academic performance, suggesting that economic stability
+plays a crucial role in educational attainment.</li>
+</ol>
+<h4 id="policy-recommendations">Policy Recommendations</h4>
+<p>Based on the findings from our analysis, several policy
+recommendations can be proposed to educational authorities and
+decision-makers to improve student outcomes and address disparities:</p>
+<ol>
+<li><strong>Enhanced Support for Low-Income Students</strong>: Implement
+programs that provide free or subsidized educational resources, such as
+test preparation courses and after-school tutoring, to students from
+lower socioeconomic backgrounds.</li>
+<li><strong>Parental Engagement Programs</strong>: Develop initiatives
+aimed at increasing parental involvement in their children's education,
+particularly focusing on underprivileged communities. This could include
+workshops that educate parents on how they can assist with homework or
+prepare for college admissions.</li>
+<li><strong>Nutrition and Academic Performance</strong>: Address the
+nutritional needs of students by expanding access to free and nutritious
+school meals, recognizing the link between proper nutrition and
+cognitive function.</li>
+<li><strong>Targeted Interventions Based on Predictive
+Analytics</strong>: Utilize predictive models to identify students at
+risk of underperforming and tailor interventions specifically to their
+needs. This could involve more personalized learning plans or additional
+support in subjects where they are predicted to struggle.</li>
+</ol>
+<h4 id="further-research-and-expansion">Further Research and
+Expansion</h4>
+<p>To deepen the understanding and enhance the accuracy of predictive
+models, further research could be conducted with an expanded dataset
+that includes more granular data on:</p>
+<ul>
+<li><strong>Environmental Factors</strong>: Investigate how factors like
+school location (urban vs. rural), access to technology, and classroom
+size impact student performance.</li>
+<li><strong>Psychological Well-being</strong>: Explore the correlation
+between students' mental health and their academic performance,
+considering variables such as access to counseling and extracurricular
+engagement.</li>
+<li><strong>Longitudinal Studies</strong>: Conduct studies that follow
+students over several years to better understand the long-term effects
+of educational policies and interventions.</li>
+</ul>
+<h4 id="conclusion">Conclusion</h4>
+<p>The insights gained from this analysis not only shed light on the
+immediate factors affecting student performance but also offer a roadmap
+for strategic policy implementation that could lead to substantial
+improvements in educational outcomes. By focusing on a combination of
+academic support, parental involvement, and socioeconomic factors,
+educational institutions and policymakers can make informed decisions
+that foster an equitable and effective educational environment.</p>
+<p>These policy suggestions aim to translate data-driven insights into
+actionable strategies that enhance educational equity and performance
+across various demographics. By leveraging advanced analytical
+techniques and focusing on comprehensive policy development,
+stakeholders can significantly impact educational success and societal
+advancement for all.</p>
+</section>
+<section id="additional-resources" class="cell markdown">
+<h3>Additional Resources</h3>
+<p>To further explore the concepts and techniques applied in this
+analysis, here is a compilation of resources that will help deepen your
+understanding and enhance your ability to conduct similar studies:</p>
+<ol>
+<li><strong>Python Libraries Documentation</strong>
+<ul>
+<li><strong>Pandas</strong>: For data manipulation and analysis. <a
+href="https://pandas.pydata.org/pandas-docs/stable/">Pandas
+Documentation</a></li>
+<li><strong>NumPy</strong>: Essential for scientific computing with
+Python. <a href="https://numpy.org/doc/">NumPy Documentation</a></li>
+<li><strong>Matplotlib</strong>: A comprehensive library for creating
+static, animated, and interactive visualizations in Python. <a
+href="https://matplotlib.org/3.3.3/contents.html">Matplotlib
+Documentation</a></li>
+<li><strong>Seaborn</strong>: A Python data visualization library based
+on matplotlib that provides a high-level interface for drawing
+attractive statistical graphics. <a
+href="https://seaborn.pydata.org/">Seaborn Documentation</a></li>
+<li><strong>Scikit-learn</strong>: Simple and efficient tools for
+predictive data analysis. <a
+href="https://scikit-learn.org/stable/documentation.html">Scikit-learn
+Documentation</a></li>
+<li><strong>imbalanced-learn</strong>: A Python package offering a
+number of re-sampling techniques commonly used in datasets showing
+strong between-class imbalance. <a
+href="https://imbalanced-learn.org/stable/">imbalanced-learn
+Documentation</a></li>
+</ul></li>
+<li><strong>Educational Resources</strong>
+<ul>
+<li><strong>Data Processing Techniques</strong>: Explore how to clean
+and prepare your data for analysis. <a
+href="https://realpython.com/python-data-cleaning-numpy-pandas/">Data
+Processing Guide</a></li>
+<li><strong>Exploratory Data Analysis (EDA)</strong>: Learn to perform
+initial investigations on data so as to discover patterns, spot
+anomalies, test hypothesis, or check assumptions. <a
+href="https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15">EDA
+Techniques</a></li>
+<li><strong>Hypothesis Testing</strong>: Understand the intuition and
+implementation of hypothesis testing to make informed conclusions about
+datasets. <a
+href="https://www.investopedia.com/terms/h/hypothesistesting.asp">Hypothesis
+Testing Overview</a></li>
+<li><strong>Machine Learning</strong>: Delve into machine learning
+concepts and models, focusing on how they can be applied to predict or
+classify data. <a
+href="https://www.ibm.com/cloud/learn/machine-learning">Machine Learning
+Guide</a></li>
+</ul></li>
+<li><strong>Further Reading</strong>
+<ul>
+<li><strong>The Impact of Socioeconomic Status on Educational Outcomes
+and Reducing Slow Academic Skills Development, Social Inequality, and
+Behavioral Problems</strong>: Research on how socioeconomic factors
+affect educational outcomes. <a
+href="https://www.apa.org/pi/ses/resources/publications/education">Read
+More</a></li>
+<li><strong>Role of Parental Involvement in Students' Academic
+Achievement</strong>: A meta-analysis discussing the correlation between
+parental involvement and students' academic success. <a
+href="https://www.jstor.org/stable/23358867">Meta-Analysis Study
+Article</a>.</li>
+</ul></li>
+</ol>
+<p>Whether you're preparing a similar analysis or developing models for
+educational data, these tools and readings can provide the necessary
+foundation and insights to get started.</p>
+</section>
+</body>
+</html>
